@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+.header{
+    background-image:url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-position:top left, bottom right;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    
+
+}
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+    align-content:center ;
+    margin-left: 80px;
+    cursor: pointer;
+
+
+}
+
+
+.logo-span{
+    color: #FF014F
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   
+    text-decoration: none;
+    font-size: large;
+    list-style: none;
+    margin-right: 80px;
+
+}
+.btn-primary{
+    height: 64px;
+    width: 150px;
+    background-color: #FF014F;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 1600px;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 35px;
+    
+}
+.hero-element{
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 120px;
+    margin-left: 180px;
+    
+}
+#btn-contact{
+    background-color:transparent ;
+    color: #FF014F;
+    border: #FF014F solid 1px;
+
+}
+.hero-subtitle{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 500px;
+    /* word-spacing: 50px; */
+    word-spacing: 20%;
+
+}
+.hero-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.hero-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: -20px;
+
+}
+.hero-img{
+    height: 674px;
+    width: 584px;
+    margin-bottom: 0px;
+
+}
+.btn-set{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
