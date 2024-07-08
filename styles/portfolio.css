@@ -8,6 +8,7 @@
     background-image:url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
     background-position:top left, bottom right;
     background-repeat: no-repeat;
+    background-color: #FFF8F3;
     
 }
 nav{
@@ -124,4 +125,50 @@ a{
     display: flex;
     flex-direction: row;
     gap: 40px;
+}
+
+/* about section */
+.about-section{
+    max-height: 550px;
+    max-width: 1140px;
+    padding: 120px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 120px;
+    align-self: center;
+    margin-left: 150px;
+}
+.about{
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+    gap: 20px;
+    border: #181818 solid 1px;
+    padding: 0px 20px 0px 20px;
+    background-color: white;
+
+    
+
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.about-description{
+    font-size: 18px;
+    font-weight: 400;
+    color:#757575;
+
+}
+.about-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
 }
